@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation</title>
+  <link rel="stylesheet" href="Reservation.css">
+</head>
+
+<body>
+  <header>
+
+    <img src="images/logo-transparent-png.png" class="logo">
+
+    <ul class="navbar">
+
+      <li><a href="index1.html"> Accueil</a></li>
+      <li><a href="A.propos.html"> A propos </a></li>
+      <li><a href="Menu.html"> Menu </a></li>
+      <li><a href="nos.html"> Nos Expert</a></li>
+      <li><a href="Témoig.html"> Témoignage</a></li>
+      <li><a href="contact.html"> contact</a></li>
+
+      <a href="Reservation.html" class="btn-reserve">Reservation</a>
+    </ul>
+  </header>
+
+  <section class="banner">
+    <h2>cucina vi dà il benvenuto</h2>
+    <div class="card-container">
+      <div class="card-img">
+      </div>
+      <div class="card-content">
+        <h3>Reservation</h3>
+        <form action="reservation.php" method="post">
+
+          <div class="form-row">
+            <input type="text" placeholder="enter the day " name="day" required>
+            <input type="number" placeholder="enter the hour " name="hour" required>
+          </div>
+          <div class="form-row">
+            <input type="text" placeholder="enter your fullname  " name="name" required>
+            <input type="number" placeholder="how many persons?" name="number" required>
+          </div>
+          <div class="form-row">
+            <input type="tel" placeholder="enter your phone number " name="phone" required>
+            <input type="submit" name="book a table" value="Book A Table">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

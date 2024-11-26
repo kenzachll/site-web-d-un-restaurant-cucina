@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+header {
+  background-color: #0000001e;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 20px 10px;
+  width: 100%;
+  height: 5%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.logo {
+  flex: 5;
+  display: flex;
+  margin: 0px;
+  position: fixed;
+  height: 60px;
+  width: 40px;
+  left: 0px;
+  top: 0px;
+  width: 110px;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.btn-reserve {
+  padding: 10px 20px;
+  background: #b22222;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.btn-reserve:hover {
+  background: #fd3b38;
+  transition: ease-out;
+}
+
+header .navbar li a:hover {
+  color: #b22222;
+  border-bottom: 2px solid #b22222;
+}
+
+/*Menu Css code*/
+.titre {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu p {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: mv boli;
+  color: #111;
+}
+
+.menu .contenu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+
+}
+
+.menu .contenu .box {
+  width: 350px;
+  margin-top: 20px;
+  border: 20px solid #ffff;
+  box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+.menu .contenu .box .imbox {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.menu .contenu .box .imbox img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.menu .contenu .box .text {
+  text-align: center;
+  font-weight: 300px;
+  color: #111;
+}
+
+.menu .contenu .box .text h3 {
+  font-weight: 400px;
+}
+
+.titre-texte {
+  color: #000;
+  font-size: 3em;
+  font-weight: 300px;
+  text-transform: capitalize;
+
+
+}
+
+.titre-texte span {
+  color: firebrick;
+  font-size: 1.5 em;
+  font-weight: 700px;
+}
+
+.button1 {
+  font-size: 1em;
+  color: #fff;
+  background: firebrick;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10 px;
+}
+
+.menu-tab ul {
+  padding: 10px;
+  display: inline-block;
+  border-radius: 60px;
+  background: linear-gradient(145deg, #ececec, #ffff);
+  box-shadow: 20px, 28px, 55px, #d4d4d4, -28px, -28px, 55px, #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.menu-tab .filters li {
+  display: inline-flex;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: normal;
+  cursor: pointer;
+  padding: 10px 26px;
+  border-radius: 30px;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu-tab .filters li:hover {
+  color: firebrick;
+
+}
+
+.menu .contenu .box .dish-info {
+
+  font-size: 1em;
+  font-weight: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.titre {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu p {
+  font-weight: 400px;
+  color: #111;
+}
+
+.menu .contenu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+
+}
+
+.menu .contenu .box {
+  width: 350px;
+  margin-top: 20px;
+  border: 20px solid #ffff;
+  box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+.menu .contenu .box .imbox {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.menu .contenu .box .imbox img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.menu .contenu .box .imbox :hover {
+  top: -30px;
+
+}
+
+.menu .contenu .box .text {
+  text-align: center;
+  font-weight: 300px;
+  color: #111;
+}
+
+.menu .contenu .box .text h3 {
+  font-weight: 400px;
+}
+
+.titre-texte {
+  color: #000;
+  font-size: 3em;
+  font-weight: 300px;
+  text-transform: capitalize;
+
+
+}
+
+.titre-texte span {
+  color: firebrick;
+  font-size: 1, 5em;
+  font-weight: 700px;
+}
+
+.button1 {
+  font-size: 1em;
+  color: #fff;
+  background: firebrick;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  margin-left: 10 px;
+  cursor: pointer;
+}
+
+.menu-tab ul {
+  padding: 10px;
+  display: inline-block;
+  border-radius: 60px;
+  background: linear-gradient(145deg, #ececec, #ffff);
+  box-shadow: 20px, 28px, 55px, #d4d4d4, -28px, -28px, 55px, #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.menu-tab .filters li {
+  display: inline-flex;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: normal;
+  cursor: pointer;
+  padding: 10px 26px;
+  border-radius: 30px;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu-tab .filters li:hover {
+  color: firebrick;
+
+}
+
+.menu .contenu .box .dish-info {
+
+  font-size: 1em;
+  font-weight: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 3px;
+}

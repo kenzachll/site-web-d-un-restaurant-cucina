@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+header {
+  background-color: #0000001e;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.logo {
+  flex: 5;
+  display: flex;
+  margin: 0px;
+  position: fixed;
+  height: 60px;
+  width: 40px;
+  left: 0px;
+  top: 0px;
+  width: 110px;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  top: 0px;
+
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.btn-reserve {
+  padding: 10px 20px;
+  background: #b22222;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.btn-reserve:hover {
+  background: hsl(1, 74%, 21%);
+  transition: ease-out;
+}
+
+header .navbar li a:hover {
+  color: #b22222;
+  border-bottom: 2px solid #b22222;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+
+}
+
+.banner {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/banner-img.jpg)center /cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 20px;
+
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 420px 420px;
+}
+
+.card-img {
+  background: url(images/istockphoto-1187685693-612x612.jpg)center /cover no-repeat;
+}
+
+.banner h2 {
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  background: #fff;
+  height: 324px;
+}
+
+.card-content h3 {
+  text-align: center;
+  color: black;
+  padding: 25px 0 10px 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.form-row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 15px 12px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border-bottom: 1px solid #eee;
+  font-weight: 300;
+
+}
+
+form input[type=text],
+form input [type=number],
+form input::placeholder {
+  color: #9a9a9a;
+}
+
+form input [type=submit] {
+  color: #fff;
+  background: #f2745f;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover {
+  opacity: 0.9;
+}
+
+@media(max-width:992px) {
+  .card-container {
+    grid-template-columns: 100%;
+
+  }
+
+  .card-img {
+    height: 330px;
+  }
+}

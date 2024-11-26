@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+header {
+  background-color: #0000001e;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.logo {
+  flex: 5;
+  display: flex;
+  margin: 0px;
+  position: fixed;
+  height: 60px;
+  width: 40px;
+  left: 0px;
+  top: 0px;
+  width: 110px;
+}
+body {
+  font-family: 'poppins', sans-serif;
+}
+.navbar {
+  display: flex;
+  position: relative;
+  top: 0px;
+
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.btn-reserve {
+  padding: 10px 20px;
+  background: #b22222;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.btn-reserve:hover {
+  background: hsl(1, 74%, 21%);
+  transition: ease-out;
+}
+
+header .navbar li a:hover {
+  color: #b22222;
+  border-bottom: 2px solid #b22222;
+}
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 20px;
+  background: url(images/V.jfif) no-repeat center;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.pal {
+  height: 450px;
+  width: 500px;
+
+  padding: 10px;
+}
+
+.add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  position: relative;
+  Top: 50px;
+
+}
+
+.box:hover {
+  transform: scale(0.9);
+}
+
+.box {
+  height: 200px;
+  width: 230px;
+  border: 2px solid #e72424;
+  background-color: rgba(12, 11, 9, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e74417de;
+  overflow: hidden;
+  transition: 0.3s ease;
+
+}
+
+.box i {
+  font-size: 25px;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.box1 h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.box1 h2 {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.box2 h3 {
+  font-size: 40px;
+}
+
+.box h3 {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.cont {
+  background-color: rgba(12, 11, 9, 0.6);
+  padding: 10px;
+  border: 2px solid #e72222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 428px;
+  position: relative;
+  Top: 50px;
+
+
+}
+
+.rating {
+  display: flex;
+  direction: row-reverse;
+  justify-content: center;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 2em;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.rating input:checked~label {
+  color: #f5b301;
+}
+
+.rating input:hover~label {
+  color: #f5b301;
+}
+
+.rating label:hover~label {
+  color: #f5b301;
+}
+
+.pal {
+  color: #e74417de;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+.form {
+  padding: 10px;
+}
+
+textarea {
+  background: rgba(205, 94, 94, 0.285);
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.btm_s {
+  padding: 8px 30px;
+  background-color: transparent;
+  border: 2px solid #e91b1b;
+  color: #e62d1f;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.btm_s:hover {
+  background-color: #d84747ee;
+  color: #292929;
+}

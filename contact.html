@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>contact </title>
+</head>
+
+<body>
+    <header>
+
+        <img src="images/logo-transparent-png.png" class="logo">
+
+        <ul class="navbar">
+
+            <li><a href="index1.html"> Accueil</a></li>
+            <li><a href="A.propos.html"> A propos </a></li>
+            <li><a href="Menu.html"> Menu </a></li>
+            <li><a href="nos.html"> Nos Expert</a></li>
+            <li><a href="Témoig.html"> Témoignage</a></li>
+            <li><a href="contact.html"> contact</a></li>
+
+            <a href="Reservation.html" class="btn-reserve">Reservation</a>
+        </ul>
+    </header>
+
+    <section class=" contact">
+
+        <div class="pal add">
+
+            <div class="box box1">
+                <a href="https://maps.app.goo.gl/aaCqTGdXstzi4k128">
+                    <i class="fa-solid fa-location-dot"></i></a>
+
+                <h2> 10 Lot. le Logis,<br> Kouba 16006</h2>
+            </div>
+            <div class="box box2">
+                <a href=""> <i class="fa-solid fa-phone"></i></a>
+                <h3>+02 34 59 99 01</h3>
+            </div>
+            <div class="box box3">
+                <a href=""> <i class="fa-solid fa-envelope"></i></a>
+                <h3>cucina45@gmail.com</h3>
+            </div>
+            <div class="box box4 ">
+                <a href=""> <i class="fa-solid fa-calendar-days"></i></a>
+                <h3 class=" head text-center"> Les Horaires <br> 12.am - 23.pm</h3>
+
+            </div>
+        </div>
+        <div class="pal cont">
+
+            <h1> CONTACT </h1>
+
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 étoiles"><i
+                        class="fas fa-star"></i></label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 étoiles"><i
+                        class="fas fa-star"></i></label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 étoiles"><i
+                        class="fas fa-star"></i></label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 étoiles"><i
+                        class="fas fa-star"></i></label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 étoile"><i
+                        class="fas fa-star"></i></label>
+            </div>
+
+            <br>
+
+            <div class="form">
+
+                <textarea name="Message" id="MSG" placeholder="Message" cols="48" rows="9"></textarea>
+            </div>
+            <div>
+                <button class="btm_s" onclick="afficherMessage()"> Send</button>
+            </div>
+            <br>
+            <br>
+            <div id="messageContainer"></div>
+
+        </div>
+
+    </section>
+    <script src="contact.js"></script>
+</body>
+
+</html>
